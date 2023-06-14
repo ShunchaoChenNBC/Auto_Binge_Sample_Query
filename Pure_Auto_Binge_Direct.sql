@@ -28,4 +28,4 @@ group by 1
 
 select count(distinct Auto_ID) as Auto_IDs
 from Watch_ID, Auto_Binge_ID
-where Auto_Binge_Time > Watched_Time and SV_ID = Auto_ID
+where Auto_Binge_Time < Watched_Time and SV_ID = Auto_ID
